@@ -1,4 +1,4 @@
-# docker-apache - a Docker container running a continuous server
+# docker-apache - a Docker container running a continuous Apache server
 
 # EXAMPLE
 
