@@ -69,6 +69,12 @@ $ docker build -t mcandre/docker-apache .
 $ docker run -d -p 80:80 mcandre/docker-apache
 ```
 
+## Publish
+
+```
+$ docker push mcandre/docker-apache
+```
+
 ## Linux
 
 ```
