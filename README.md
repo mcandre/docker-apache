@@ -69,19 +69,13 @@ $ docker build -t mcandre/docker-apache .
 $ docker run -d -p 80:80 mcandre/docker-apache
 ```
 
-## Publish
-
-```
-$ docker push mcandre/docker-apache
-```
-
-## Linux
+### Linux
 
 ```
 $ curl http://localhost
 ```
 
-## non-Linux
+### non-Linux
 
 ```
 $ curl http://$(boot2docker ip)
@@ -92,6 +86,12 @@ $ curl http://$(boot2docker ip)
 <p>This is the default web page for this server.</p>
 <p>The web server software is running but no content has been added, yet.</p>
 </body></html>
+```
+
+## Publish
+
+```
+$ docker push mcandre/docker-apache
 ```
 
 ## Cleanup
