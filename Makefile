@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-apache
+IMAGE=mcandre/docker-apache:2.4
 
 LOCALHOST=$$(boot2docker ip)
 

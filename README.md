@@ -8,8 +8,8 @@ https://registry.hub.docker.com/u/mcandre/docker-apache/
 
 ```
 $ make
-docker build -t mcandre/docker-apache .
-docker run -d -p 80:80 mcandre/docker-apache
+docker build -t mcandre/docker-apache:2.4 .
+docker run -d -p 80:80 mcandre/docker-apache:2.4
 c9de1f578b4c110d422b8de1009bf50c8955011c8f192eddf71e2c77b673de0a
 curl http://$(boot2docker ip)
 <html><body><h1>It works!</h1>
