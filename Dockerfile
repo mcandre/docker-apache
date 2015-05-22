@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:precise
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
 RUN apt-get update && \
     apt-get install -y apache2
