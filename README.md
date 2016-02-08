@@ -26,6 +26,7 @@ curl http://$(docker-machine ip default)
 
 * [curl](http://curl.haxx.se/)
 * [make](http://www.gnu.org/software/make/)
+* [Node.js](https://nodejs.org/en/) (for dockerlint)
 
 ## Debian/Ubuntu
 
